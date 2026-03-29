@@ -1,4 +1,5 @@
 import random
+from typing import Final, TypedDict
 
 ACTIVITIES = {
     "rainy": [
@@ -47,3 +48,107 @@ def find_activity(weather: str) -> str:
     if weather.lower() not in ACTIVITIES:
         return f"'{weather}' is not valid. Try: rainy, sunny, freezing, cold, hot or perfect."
     return random.choice(ACTIVITIES[weather.lower()])
+
+class Venue(TypedDict):
+    name: str
+    website: str
+
+class NightlifeCategory(TypedDict):
+    activity_type: str
+    places: list[Venue]
+
+class NightlifeRecommendation(Venue):
+    vibe: str
+    activity_type: str
+
+def find_restaurant(cuisuine: str, hours: int | None = 12):
+    restaurant_id = random.randint(0, 100)
+
+def find_activity(weather: str):
+    pass
+
+NIGHTLIFE_OPTIONS: Final[dict[str, NightlifeCategory]] = {
+    "dancing": {
+        "activity_type": "nightclub",
+        "places": [
+            {"name": "House of Yes", "website": "https://www.houseofyes.org/"},
+            {"name": "Marquee New York", "website": "https://marqueeny.com/"},
+            {"name": "Nebula", "website": "https://www.nebulanewyork.com/"},
+            {"name": "Elsewhere", "website": "https://www.elsewherebrooklyn.com/"},
+        ],
+    },
+    "music and vibes": {
+        "activity_type": "bar",
+        "places": [
+            {"name": "The Django", "website": "https://www.thedjangonyc.com/"},
+            {"name": "Skinny Dennis", "website": "https://skinnydennisbrooklyn.com/"},
+            {"name": "Bar Lunatico", "website": "http://www.barlunatico.com/"},
+            {"name": "Nublu 151", "website": "https://nublu.net/nublu-151/"},
+        ],
+    },
+    "singing": {
+        "activity_type": "karaoke",
+        "places": [
+            {"name": "Planet Rose", "website": "https://planetrose.com/"},
+            {"name": "Sing Sing Avenue A", "website": "https://www.singsingavea.com/"},
+            {"name": "Space Karaoke Bar & Lounge", "website": "https://spacekaraokebar.com/"},
+            {"name": "Karaoke City", "website": "https://www.karaokecityny.com/"},
+        ],
+    },
+    "laughing": {
+        "activity_type": "comedy club",
+        "places": [
+            {"name": "Comedy Cellar", "website": "https://www.comedycellar.com/"},
+            {"name": "Gotham Comedy Club", "website": "https://www.gothamcomedyclub.com/"},
+            {"name": "New York Comedy Club", "website": "https://newyorkcomedyclub.com/"},
+            {"name": "The Stand", "website": "https://www.thestandnyc.com/"},
+        ],
+    },
+}
+
+VIBE_ALIASES: Final[dict[str, str]] = {
+    "bar": "music and vibes",
+    "club": "dancing",
+    "clubbing": "dancing",
+    "comedy": "laughing",
+    "dance": "dancing",
+    "dancing": "dancing",
+    "karaoke": "singing",
+    "laughing": "laughing",
+    "music": "music and vibes",
+    "music and vibes": "music and vibes",
+    "nightclub": "dancing",
+    "singing": "singing",
+    "vibes": "music and vibes",
+}
+
+def _normalize_vibe(vibe: str) -> str:
+    normalized_vibe = vibe.strip().lower().replace("-", " ").replace("_", " ")
+    normalized_vibe = " ".join(normalized_vibe.split())
+
+    if normalized_vibe not in VIBE_ALIASES:
+        valid_vibes = ", ".join(sorted(NIGHTLIFE_OPTIONS))
+        raise ValueError(
+            f"Unsupported vibe '{vibe}'. Choose from: {valid_vibes}."
+        )
+
+    return VIBE_ALIASES[normalized_vibe]
+
+def list_nightlife_places(vibe: str) -> list[Venue]:
+    """Return NYC nightlife options for a given vibe."""
+    normalized_vibe = _normalize_vibe(vibe)
+    places = NIGHTLIFE_OPTIONS[normalized_vibe]["places"]
+    return [place.copy() for place in places]
+
+def find_nightlife_activity(vibe: str) -> NightlifeRecommendation:
+    """Select and return one random NYC nightlife activity (as dict) that matches the vibe."""
+    normalized_vibe = _normalize_vibe(vibe)
+    activity = NIGHTLIFE_OPTIONS[normalized_vibe]
+    venue = random.choice(activity["places"])
+
+    return {
+        "vibe": normalized_vibe,
+        "activity_type": activity["activity_type"],
+        "name": venue["name"],
+        "website": venue["website"],
+    }
