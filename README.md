@@ -1,6 +1,6 @@
 # Python Package Exercise
 
-[![log github events](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml/badge.svg)](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml)
+```[![log github events](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml/badge.svg)](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml)```
 
 ## Github
 
