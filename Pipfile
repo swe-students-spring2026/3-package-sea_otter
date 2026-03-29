@@ -4,8 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pynyc = {file = ".", editable = true}
+build = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+twine = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.14"
+python_version = "3"

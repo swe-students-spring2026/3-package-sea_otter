@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pynyc"
+version = "0.1.0"
+description = "An opinionated NYC weekend planner for developers"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Sasha Cartagena"},
+  {name = "Blake Chang"},
+  {name = "Albert Chen"},
+  {name = "Valeria Chang"},
+  {name = "Vincent Campanaro"},
+]
+keywords = ["nyc", "new york", "planner", "weekend", "fun"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/swe-students-spring2026/3-package-sea_otter"
+"Repository" = "https://github.com/swe-students-spring2026/3-package-sea_otter.git"
+"Bug Tracker" = "https://github.com/swe-students-spring2026/3-package-sea_otter/issues"
+
+[project.scripts]
+pynyc = "pynyc.__main__:main"
