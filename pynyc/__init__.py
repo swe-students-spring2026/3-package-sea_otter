@@ -176,8 +176,38 @@ EXCURSION_OPTIONS: Final[dict[str, ExcursionCategory]] = {
             },
             {
                 "name": "Cold Spring & Breakneck Ridge",
-                "location": "Cold Spring, NY",
+                "location": "Breakneck Ridge Trailhead, Cold Spring, NY 10516",
                 "website": "https://parks.ny.gov/parks/hudsonhighlands/details.aspx",
+            },
+            {
+                "name": "Governors Island",
+                "location": "10 South Street, Slip 7, New York, NY 10004",
+                "website": "https://www.govisland.com/",
+            },
+            {
+                "name": "QC NY Spa",
+                "location": "112 Andes Road, New York, NY 10004",
+                "website": "https://www.qcny.com/",
+            },
+            {
+                "name": "Collective Retreats Governors Island",
+                "location": "Governors Island, New York, NY 10004",
+                "website": "https://www.collectiveretreats.com/retreat/governors-island/",
+            },
+            {
+                "name": "Mohonk Preserve",
+                "location": "3197 Route 44/55, Gardiner, NY 12525",
+                "website": "https://www.mohonkpreserve.org/",
+            },
+            {
+                "name": "Palisades Interstate Park",
+                "location": "P.O. Box 155, Alpine, NJ 07620",
+                "website": "https://njpalisades.org/",
+            },
+            {
+                "name": "Jamaica Bay Wildlife Refuge",
+                "location": "175-10 Cross Bay Boulevard, Queens, NY 11414",
+                "website": "https://www.nps.gov/gate/index.htm",
             },
             {
                 "name": "Storm King Art Center",
@@ -189,6 +219,46 @@ EXCURSION_OPTIONS: Final[dict[str, ExcursionCategory]] = {
     "historic": {
         "excursion_type": "historic",
         "places": [
+            {
+                "name": "Dia Beacon",
+                "location": "3 Beekman Street, Beacon, NY 12508",
+                "website": "https://www.diaart.org/visit/visit-our-locations-sites/dia-beacon-beacon-united-states",
+            },
+            {
+                "name": "Washington Irving's Sunnyside",
+                "location": "West Sunnyside Lane, Tarrytown, NY",
+                "website": "https://hudsonvalley.org/historic-sites/washington-irvings-sunnyside/",
+            },
+            {
+                "name": "Lyndhurst Mansion",
+                "location": "635 South Broadway, Tarrytown, NY 10591",
+                "website": "https://lyndhurst.org/",
+            },
+            {
+                "name": "Independence Hall",
+                "location": "520 Chestnut Street, Philadelphia, PA 19106",
+                "website": "https://www.nps.gov/inde/planyourvisit/independencehall.htm",
+            },
+            {
+                "name": "Philadelphia Museum of Art",
+                "location": "2600 Benjamin Franklin Parkway, Philadelphia, PA 19130",
+                "website": "https://philamuseum.org/visit",
+            },
+            {
+                "name": "Tenement Museum",
+                "location": "103 Orchard Street, New York, NY 10002",
+                "website": "https://www.tenement.org/",
+            },
+            {
+                "name": "Save Ellis Island Hard Hat Tour",
+                "location": "Ellis Island (Hospital Complex), New York Harbor, NY 10004",
+                "website": "https://www.saveellisisland.org/tour/hard-hat-tours/page.html",
+            },
+            {
+                "name": "Chateau Bloomberg",
+                "location": "New York, NY",
+                "website": "https://knowledge.kitchen/food-and-drink/ch%C3%A2teau-bloomberg/",
+            },
             {
                 "name": "Sleepy Hollow",
                 "location": "Sleepy Hollow, NY",
@@ -213,6 +283,16 @@ EXCURSION_OPTIONS: Final[dict[str, ExcursionCategory]] = {
                 "name": "Asbury Park Boardwalk",
                 "location": "Asbury Park, NJ",
                 "website": "https://www.apboardwalk.com/",
+            },
+            {
+                "name": "New York Media Boat / Adventure Sightseeing",
+                "location": "Chelsea Piers, Pier 59, New York, NY 10011",
+                "website": "https://www.advsightseeing.com/",
+            },
+            {
+                "name": "Secret Food Tours New York",
+                "location": "Chinatown and Little Italy, Manhattan, NY",
+                "website": "https://www.secretfoodtours.com/new-york/",
             },
         ],
     },
