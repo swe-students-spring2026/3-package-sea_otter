@@ -9,5 +9,6 @@
 ## Developers
 
 [Albert Chen](https://github.com/azc9673)
+[Valeria Chang](https://github.com/ValeriaChang)
 
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
