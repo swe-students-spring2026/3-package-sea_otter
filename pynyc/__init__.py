@@ -6,5 +6,6 @@ from .pynyc import (
     list_nightlife_places,
     list_excursions,
     find_excursion,
+    get_cafe,
     ACTIVITIES,
 )
