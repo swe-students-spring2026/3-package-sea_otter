@@ -319,3 +319,27 @@ def list_excursions(category: str) -> list[Excursion]:
 
 def find_excursion(category: str) -> Excursion:
     return random.choice(list_excursions(category))
+
+def get_cafe(time: str) -> str:
+    cafes = {
+        "morning": [
+            "Birch Coffee",
+            "La Colombe",
+            "Joe Coffee Company"
+        ],
+        "afternoon": [
+            "Think Coffee",
+            "787 Coffee",
+            "Blue Bottle Coffee"
+        ],
+        "evening": [
+            "Blank Street",
+            "Cafe Lyria",
+            "BlueStone Lane"
+        ]
+    }
+
+    time = time.lower()
+    if time not in cafes:
+        return f"'{time}' is not valid. Try: morning, afternoon, evening."
+    return random.choice(cafes[time])
