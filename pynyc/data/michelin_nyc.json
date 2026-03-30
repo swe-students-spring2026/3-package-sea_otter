@@ -1,0 +1,2110 @@
+{
+  "restaurants": [
+    {
+      "name": "Icca",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/icca"
+    },
+    {
+      "name": "Chambers",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chambers"
+    },
+    {
+      "name": "Ito",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ito-1201767"
+    },
+    {
+      "name": "Atera",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/atera"
+    },
+    {
+      "name": "Farra",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/farra"
+    },
+    {
+      "name": "Huso",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/huso-1218089"
+    },
+    {
+      "name": "Manhatta",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/manhatta"
+    },
+    {
+      "name": "Jungsik New York",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/jungsik-new-york"
+    },
+    {
+      "name": "Tamarind",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tamarind"
+    },
+    {
+      "name": "One White Street",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/one-white-street"
+    },
+    {
+      "name": "Crown Shy",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/crown-shy"
+    },
+    {
+      "name": "Maison Passerelle",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/maison-passerelle"
+    },
+    {
+      "name": "Eulalie",
+      "cuisine": "French",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/eulalie"
+    },
+    {
+      "name": "Cha Kee",
+      "cuisine": "Asian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cha-kee"
+    },
+    {
+      "name": "Saga",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/saga"
+    },
+    {
+      "name": "Lei",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/lei"
+    },
+    {
+      "name": "Bridges",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bridges-1216261"
+    },
+    {
+      "name": "Dim Sum Go Go",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/dim-sum-go-go"
+    },
+    {
+      "name": "Carne Mare",
+      "cuisine": "Steakhouse",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/carne-mare"
+    },
+    {
+      "name": "Yamada",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/yamada"
+    },
+    {
+      "name": "La Mercerie",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/la-mercerie"
+    },
+    {
+      "name": "Le Coucou",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-coucou"
+    },
+    {
+      "name": "Muku",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/muku"
+    },
+    {
+      "name": "L’abeille à Côté",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/l-abeille-a-cote"
+    },
+    {
+      "name": "L’Abeille",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/l%E2%80%99abeille"
+    },
+    {
+      "name": "Nyonya",
+      "cuisine": "Malaysian",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/nyonya"
+    },
+    {
+      "name": "Corima",
+      "cuisine": "Mexican",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/corima"
+    },
+    {
+      "name": "Shabushabu Mayumon",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/shabushabu-mayumon"
+    },
+    {
+      "name": "Thai Diner",
+      "cuisine": "Thai",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/thai-diner"
+    },
+    {
+      "name": "Cervo’s",
+      "cuisine": "Spanish",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cervo-s"
+    },
+    {
+      "name": "Wayan",
+      "cuisine": "Indonesian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/wayan"
+    },
+    {
+      "name": "Potluck Club",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/potluck-club"
+    },
+    {
+      "name": "Altro Paradiso",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cafe-altro-paradiso"
+    },
+    {
+      "name": "Ma•dé",
+      "cuisine": "South East Asian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ma%E2%80%A2de"
+    },
+    {
+      "name": "Comal",
+      "cuisine": "Mexican",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/comal-1242778"
+    },
+    {
+      "name": "Tolo",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tolo"
+    },
+    {
+      "name": "Dirt Candy",
+      "cuisine": "Vegetarian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/dirt-candy"
+    },
+    {
+      "name": "The River Café",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/the-river-cafe"
+    },
+    {
+      "name": "Raoul's",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/raoul-s"
+    },
+    {
+      "name": "Pinch Chinese",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/pinch-chinese"
+    },
+    {
+      "name": "César",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cesar"
+    },
+    {
+      "name": "Sushi Ikumi",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sushi-ikumi"
+    },
+    {
+      "name": "Torrisi",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/torrisi"
+    },
+    {
+      "name": "Forsythia",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/forsythia"
+    },
+    {
+      "name": "Russ & Daughters Cafe",
+      "cuisine": "American",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/russ-daughters-cafe"
+    },
+    {
+      "name": "The Musket Room",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-musket-room"
+    },
+    {
+      "name": "King",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/king"
+    },
+    {
+      "name": "Estela",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/estela"
+    },
+    {
+      "name": "Ballato",
+      "cuisine": "Italian-American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/emilio-s-ballato"
+    },
+    {
+      "name": "Dhamaka",
+      "cuisine": "Indian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/dhamaka"
+    },
+    {
+      "name": "Raf's",
+      "cuisine": "European",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/raf-s"
+    },
+    {
+      "name": "Torien",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/torien"
+    },
+    {
+      "name": "Carbone",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/carbone"
+    },
+    {
+      "name": "Lord's",
+      "cuisine": "English",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/lord-s"
+    },
+    {
+      "name": "8282",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/8282"
+    },
+    {
+      "name": "Laliko",
+      "cuisine": "Central Asian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/laliko"
+    },
+    {
+      "name": "Ernesto's",
+      "cuisine": "Spanish",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ernesto-s"
+    },
+    {
+      "name": "Dame",
+      "cuisine": "Seafood",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/dame"
+    },
+    {
+      "name": "Inga's Bar",
+      "cuisine": "American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/inga-s-bar"
+    },
+    {
+      "name": "C as in Charlie",
+      "cuisine": "Fusion",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/c-as-in-charlie"
+    },
+    {
+      "name": "Una Pizza Napoletana",
+      "cuisine": "Pizza",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/una-pizza-napoletana"
+    },
+    {
+      "name": "Kabawa",
+      "cuisine": "Caribbean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kabawa"
+    },
+    {
+      "name": "Crevette",
+      "cuisine": "Seafood",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/crevette"
+    },
+    {
+      "name": "Sami & Susu",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sami-susu"
+    },
+    {
+      "name": "MayRee",
+      "cuisine": "Thai",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/mayree"
+    },
+    {
+      "name": "Atla",
+      "cuisine": "Mexican",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/atla"
+    },
+    {
+      "name": "Nami Nori",
+      "cuisine": "Japanese",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/nami-nori"
+    },
+    {
+      "name": "Yoshino",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/yoshino-1185037"
+    },
+    {
+      "name": "Minetta Tavern",
+      "cuisine": "Steakhouse",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/minetta-tavern"
+    },
+    {
+      "name": "Katz's",
+      "cuisine": "Deli",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/katz-s"
+    },
+    {
+      "name": "Bungalow",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bungalow"
+    },
+    {
+      "name": "63 Clinton",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/63-clinton"
+    },
+    {
+      "name": "The Commerce Inn",
+      "cuisine": "American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-commerce-inn"
+    },
+    {
+      "name": "Sushi Nakazawa New York",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sushi-nakazawa"
+    },
+    {
+      "name": "Ivan Ramen",
+      "cuisine": "Japanese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ivan-ramen"
+    },
+    {
+      "name": "Le Gigot",
+      "cuisine": "French",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-gigot"
+    },
+    {
+      "name": "Little Myanmar",
+      "cuisine": "Burmese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/little-myanmar"
+    },
+    {
+      "name": "Family Meal at Blue Hill",
+      "cuisine": "American",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/blue-hill"
+    },
+    {
+      "name": "Jeju Noodle Bar",
+      "cuisine": "Korean",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/jeju-noodle-bar"
+    },
+    {
+      "name": "I Sodi",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/i-sodi"
+    },
+    {
+      "name": "Red Paper Clip",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/red-paper-clip"
+    },
+    {
+      "name": "Via Carota",
+      "cuisine": "Italian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/via-carota"
+    },
+    {
+      "name": "Secchu Yokota",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/secchu-yokota"
+    },
+    {
+      "name": "Loring Place",
+      "cuisine": "American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/loring-place"
+    },
+    {
+      "name": "Frevo",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/frevo"
+    },
+    {
+      "name": "Adda",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/adda-1165339"
+    },
+    {
+      "name": "Shmoné",
+      "cuisine": "Israeli",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/shmone"
+    },
+    {
+      "name": "CheLi",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cheli"
+    },
+    {
+      "name": "Ariari",
+      "cuisine": "Korean",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ariari"
+    },
+    {
+      "name": "Soda Club",
+      "cuisine": "Vegan",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/soda-club"
+    },
+    {
+      "name": "Tuome",
+      "cuisine": "Fusion",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tuome"
+    },
+    {
+      "name": "MáLà Project",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/mala-project"
+    },
+    {
+      "name": "Nudibranch",
+      "cuisine": "Contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/nudibranch"
+    },
+    {
+      "name": "Moody Tongue Sushi",
+      "cuisine": "Sushi",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/moody-tongue-sushi"
+    },
+    {
+      "name": "Ruffian",
+      "cuisine": "Contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ruffian"
+    },
+    {
+      "name": "Pylos",
+      "cuisine": "Greek",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/pylos"
+    },
+    {
+      "name": "Noreetuh",
+      "cuisine": "Fusion",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/noreetuh"
+    },
+    {
+      "name": "Miss Lily’s",
+      "cuisine": "Jamaican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/miss-lily-s"
+    },
+    {
+      "name": "Avant Garden",
+      "cuisine": "Vegan",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/avant-garden"
+    },
+    {
+      "name": "Sobaya",
+      "cuisine": "Japanese",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/soba-ya"
+    },
+    {
+      "name": "Claud",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/claud"
+    },
+    {
+      "name": "Penny",
+      "cuisine": "Seafood",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/penny"
+    },
+    {
+      "name": "Superiority Burger",
+      "cuisine": "Vegetarian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/superiority-burger"
+    },
+    {
+      "name": "The Office of Mr. Moto",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-office-at-mr-moto"
+    },
+    {
+      "name": "4 Charles Prime Rib",
+      "cuisine": "Steakhouse",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/4-charles-prime-rib"
+    },
+    {
+      "name": "Smithereens",
+      "cuisine": "Seafood",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/smithereens"
+    },
+    {
+      "name": "Bar Miller",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bar-miller"
+    },
+    {
+      "name": "Tsukimi",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tsukimi"
+    },
+    {
+      "name": "Pranakhon",
+      "cuisine": "Thai",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/pranakhon"
+    },
+    {
+      "name": "Rosella",
+      "cuisine": "Japanese",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/rosella"
+    },
+    {
+      "name": "Kubeh",
+      "cuisine": "Middle Eastern",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kubeh"
+    },
+    {
+      "name": "Semma",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/semma"
+    },
+    {
+      "name": "HAGS",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/hags"
+    },
+    {
+      "name": "Kanoyama",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kanoyama"
+    },
+    {
+      "name": "Momofuku Noodle Bar",
+      "cuisine": "Asian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/momofuku-noodle-bar"
+    },
+    {
+      "name": "Al Badawi",
+      "cuisine": "Middle Eastern",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/al-badawi"
+    },
+    {
+      "name": "Bánh Anh Em",
+      "cuisine": "Vietnamese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/banh-anh-em"
+    },
+    {
+      "name": "Yellow Rose",
+      "cuisine": "Tex-Mex",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/yellow-rose"
+    },
+    {
+      "name": "Bartolo",
+      "cuisine": "Spanish",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bartolo"
+    },
+    {
+      "name": "Odre",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/odre"
+    },
+    {
+      "name": "Soothr",
+      "cuisine": "Thai",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/soothr"
+    },
+    {
+      "name": "Le B",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-b-1210894"
+    },
+    {
+      "name": "Don Angie",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/don-angie"
+    },
+    {
+      "name": "Kosaka",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kosaka"
+    },
+    {
+      "name": "Ishq",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ishq"
+    },
+    {
+      "name": "Bangkok Supper Club",
+      "cuisine": "Thai",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bangkok-supper-club"
+    },
+    {
+      "name": "Gage & Tollner",
+      "cuisine": "Steakhouse",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/gage-tollner"
+    },
+    {
+      "name": "The Dining Room at The Guesthouse",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-dining-room-at-the-guesthouse"
+    },
+    {
+      "name": "Saint Julivert Fisherie",
+      "cuisine": "Seafood",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/saint-julivert-fisherie"
+    },
+    {
+      "name": "La Vara",
+      "cuisine": "Spanish",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/la-vara"
+    },
+    {
+      "name": "Kanyakumari",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kanyakumari"
+    },
+    {
+      "name": "Casa Mono",
+      "cuisine": "Spanish",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/casa-mono"
+    },
+    {
+      "name": "La Dong",
+      "cuisine": "Vietnamese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/la-dong"
+    },
+    {
+      "name": "Kyma",
+      "cuisine": "Greek",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kyma"
+    },
+    {
+      "name": "Sal Tang's",
+      "cuisine": "Chinese Contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/sal-tang-s"
+    },
+    {
+      "name": "Portale",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/portale"
+    },
+    {
+      "name": "Genesis House Restaurant",
+      "cuisine": "Korean",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/genesis-house-restaurant"
+    },
+    {
+      "name": "abcV",
+      "cuisine": "Vegetarian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/abcv"
+    },
+    {
+      "name": "Oceans",
+      "cuisine": "Seafood",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/oceans"
+    },
+    {
+      "name": "Carlotto",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/carlotto"
+    },
+    {
+      "name": "Oiji Mi",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/oiji-mi"
+    },
+    {
+      "name": "bōm",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bom"
+    },
+    {
+      "name": "Gramercy Tavern",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/gramercy-tavern"
+    },
+    {
+      "name": "Rezdôra",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/rezdora-osteria-emiliana"
+    },
+    {
+      "name": "Noda",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/noda"
+    },
+    {
+      "name": "odo",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/odo"
+    },
+    {
+      "name": "Massara",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/massara"
+    },
+    {
+      "name": "Mile End",
+      "cuisine": "Deli",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/mile-end"
+    },
+    {
+      "name": "Cosme",
+      "cuisine": "Mexican",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cosme"
+    },
+    {
+      "name": "La Devozione: The Oval",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/la-devozione-the-oval"
+    },
+    {
+      "name": "Untable",
+      "cuisine": "Thai",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/untable"
+    },
+    {
+      "name": "Gus's Chop House",
+      "cuisine": "Steakhouse",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/gus-s-chop-house"
+    },
+    {
+      "name": "Crane Club",
+      "cuisine": "Steakhouse",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/crane-club"
+    },
+    {
+      "name": "Noz 17",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/noz17"
+    },
+    {
+      "name": "Novitá",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/novita"
+    },
+    {
+      "name": "Coqodaq",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/coqodaq"
+    },
+    {
+      "name": "Aska",
+      "cuisine": "Scandinavian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/aska"
+    },
+    {
+      "name": "Cote",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cote"
+    },
+    {
+      "name": "Jua",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/jua"
+    },
+    {
+      "name": "Shota Omakase",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/shota-omakase"
+    },
+    {
+      "name": "La Tête d’Or",
+      "cuisine": "Steakhouse",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/la-tete-d-or"
+    },
+    {
+      "name": "Sunday in Brooklyn",
+      "cuisine": "American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/sunday-in-brooklyn"
+    },
+    {
+      "name": "Eleven Madison Park",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/eleven-madison-park"
+    },
+    {
+      "name": "Junoon",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/junoon"
+    },
+    {
+      "name": "Glin Thai Bistro",
+      "cuisine": "Thai",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/glin-thai-bistro"
+    },
+    {
+      "name": "Francie",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/francie"
+    },
+    {
+      "name": "Mesiba",
+      "cuisine": "Middle Eastern",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/mesiba"
+    },
+    {
+      "name": "Meadowsweet",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/meadowsweet"
+    },
+    {
+      "name": "Upland",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/upland"
+    },
+    {
+      "name": "Il Fiorista",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/il-fiorista"
+    },
+    {
+      "name": "Peter Luger",
+      "cuisine": "Steakhouse",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/peter-luger"
+    },
+    {
+      "name": "Café Kestrel",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/cafe-kestrel"
+    },
+    {
+      "name": "Atoboy",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/atoboy"
+    },
+    {
+      "name": "Ulivo",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ulivo"
+    },
+    {
+      "name": "Café Carmellini",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cafe-carmellini"
+    },
+    {
+      "name": "Miss Ada",
+      "cuisine": "Israeli",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/miss-ada"
+    },
+    {
+      "name": "Red Hook Tavern",
+      "cuisine": "American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/red-hook-tavern"
+    },
+    {
+      "name": "Hungry Thirsty",
+      "cuisine": "Thai",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/hungry-thirsty"
+    },
+    {
+      "name": "Markette",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/markette"
+    },
+    {
+      "name": "Mango Bay",
+      "cuisine": "Caribbean",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/mango-bay"
+    },
+    {
+      "name": "Atomix",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/atomix"
+    },
+    {
+      "name": "Sailor",
+      "cuisine": "American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/sailor"
+    },
+    {
+      "name": "Norma Gastronomia Siciliana",
+      "cuisine": "Italian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/norma-gastronomia-siciliana"
+    },
+    {
+      "name": "Enso",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/enso-1211186"
+    },
+    {
+      "name": "6 Restaurant",
+      "cuisine": "European",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/6-restaurant"
+    },
+    {
+      "name": "Theodora",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/theodora"
+    },
+    {
+      "name": "Laser Wolf",
+      "cuisine": "Middle Eastern",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/laser-wolf"
+    },
+    {
+      "name": "HanGawi",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/hangawi"
+    },
+    {
+      "name": "The Four Horsemen",
+      "cuisine": "American",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/the-four-horsemen"
+    },
+    {
+      "name": "Joo Ok",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/joo-ok-1214822"
+    },
+    {
+      "name": "Moono",
+      "cuisine": "Korean",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/moono"
+    },
+    {
+      "name": "Hav & Mar",
+      "cuisine": "Ethiopian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/hav-mar"
+    },
+    {
+      "name": "Dons Bogam",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/dons-bogam"
+    },
+    {
+      "name": "Nōksu",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/noksu"
+    },
+    {
+      "name": "Hyun",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/hyun"
+    },
+    {
+      "name": "Hometown Bar B Que New York",
+      "cuisine": "Barbecue",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/hometown-bar-b-que"
+    },
+    {
+      "name": "Seoul Salon",
+      "cuisine": "Korean",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/seoul-salon"
+    },
+    {
+      "name": "Café Mars",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/cafe-mars"
+    },
+    {
+      "name": "Octo",
+      "cuisine": "Asian Contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/octo-1212173"
+    },
+    {
+      "name": "Runner & Stone",
+      "cuisine": "Contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/runner-stone"
+    },
+    {
+      "name": "Shalom Japan",
+      "cuisine": "Fusion",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/shalom-japan"
+    },
+    {
+      "name": "Sawa",
+      "cuisine": "Middle Eastern",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/sawa-1214172"
+    },
+    {
+      "name": "Lingo",
+      "cuisine": "Japanese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/lingo"
+    },
+    {
+      "name": "Chez Ma Tante",
+      "cuisine": "American Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/chez-ma-tante"
+    },
+    {
+      "name": "Cho Dang Gol",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cho-dang-gol"
+    },
+    {
+      "name": "KRU",
+      "cuisine": "Thai",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/kru"
+    },
+    {
+      "name": "Tonchin",
+      "cuisine": "Japanese",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tonchin"
+    },
+    {
+      "name": "Ci Siamo",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ci-siamo"
+    },
+    {
+      "name": "Ai Fiori",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ai-fiori"
+    },
+    {
+      "name": "Little Alley",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/little-alley"
+    },
+    {
+      "name": "Peak",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/peak"
+    },
+    {
+      "name": "Sofreh",
+      "cuisine": "Persian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/sofreh"
+    },
+    {
+      "name": "Papa San",
+      "cuisine": "Japanese",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/papa-san"
+    },
+    {
+      "name": "Uzuki",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/uzuki"
+    },
+    {
+      "name": "Madre",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/madre-1185329"
+    },
+    {
+      "name": "Place des Fêtes",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/place-des-fetes"
+    },
+    {
+      "name": "Haenyeo",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/haenyeo"
+    },
+    {
+      "name": "Oxomoco",
+      "cuisine": "Mexican",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/oxomoco"
+    },
+    {
+      "name": "Tempura Matsui",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tempura-matsui"
+    },
+    {
+      "name": "Restaurant Yuu",
+      "cuisine": "French Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/restaurant-yuu"
+    },
+    {
+      "name": "Peppercorn Station",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/peppercorn-station"
+    },
+    {
+      "name": "Szechuan Gourmet",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/szechuan-gourmet"
+    },
+    {
+      "name": "Chef's Table at Brooklyn Fare",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chef-s-table-at-brooklyn-fare"
+    },
+    {
+      "name": "Speedy Romeo",
+      "cuisine": "Pizza",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/speedy-romeo"
+    },
+    {
+      "name": "Rose Marie",
+      "cuisine": "American Contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/rose-marie"
+    },
+    {
+      "name": "Taqueria El Chato",
+      "cuisine": "Mexican",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/taqueria-el-chato"
+    },
+    {
+      "name": "Alta Calidad",
+      "cuisine": "Mexican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/alta-calidad"
+    },
+    {
+      "name": "Pierozek",
+      "cuisine": "Polish",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/pierozek"
+    },
+    {
+      "name": "ILIS",
+      "cuisine": "Scandinavian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/ilis"
+    },
+    {
+      "name": "Sushi Sho",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sushi-sho-1213976"
+    },
+    {
+      "name": "Wenwen",
+      "cuisine": "Taiwanese",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/wenwen"
+    },
+    {
+      "name": "Gabriel Kreuther",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/gabriel-kreuther"
+    },
+    {
+      "name": "Le Pavillon",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-pavillon-1192744"
+    },
+    {
+      "name": "Fausto",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/fausto"
+    },
+    {
+      "name": "Sushi Yasuda",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sushi-yasuda"
+    },
+    {
+      "name": "Jōji",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/joji"
+    },
+    {
+      "name": "Izakaya Futago",
+      "cuisine": "Japanese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/soba-totto"
+    },
+    {
+      "name": "Bonnie's",
+      "cuisine": "Cantonese",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/bonnie-s"
+    },
+    {
+      "name": "The Lambs Club",
+      "cuisine": "Steakhouse",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-lambs-club"
+    },
+    {
+      "name": "Ammazzacaffè",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/ammazzacaffe"
+    },
+    {
+      "name": "Veerays",
+      "cuisine": "Indian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/veerays"
+    },
+    {
+      "name": "Casa Ora",
+      "cuisine": "Venezuelan",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/casa-ora"
+    },
+    {
+      "name": "Win Son",
+      "cuisine": "Chinese",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/win-son"
+    },
+    {
+      "name": "Meju",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/meju"
+    },
+    {
+      "name": "Fasano",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/fasano-1210236"
+    },
+    {
+      "name": "Gui",
+      "cuisine": "Steakhouse",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/gui-1207502"
+    },
+    {
+      "name": "Kochi",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kochi"
+    },
+    {
+      "name": "Mari",
+      "cuisine": "Korean",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/mari"
+    },
+    {
+      "name": "Hart's",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/hart-s"
+    },
+    {
+      "name": "Casa Enrique",
+      "cuisine": "Mexican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/casa-enrique"
+    },
+    {
+      "name": "Hupo",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/hupo"
+    },
+    {
+      "name": "Runner Up",
+      "cuisine": "American",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/runner-up"
+    },
+    {
+      "name": "Jupiter",
+      "cuisine": "Italian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/jupiter"
+    },
+    {
+      "name": "Kung Fu Little Steamed Buns Ramen",
+      "cuisine": "Chinese",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kung-fu-little-steamed-buns-ramen"
+    },
+    {
+      "name": "Le Rock",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-rock"
+    },
+    {
+      "name": "See No Evil Pizza",
+      "cuisine": "Pizza",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/see-no-evil-pizza"
+    },
+    {
+      "name": "R40",
+      "cuisine": "Argentinian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/r40"
+    },
+    {
+      "name": "Don Antonio",
+      "cuisine": "Pizza",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/don-antonio-by-starita"
+    },
+    {
+      "name": "Le Bernardin",
+      "cuisine": "Seafood",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-bernardin"
+    },
+    {
+      "name": "The Grill",
+      "cuisine": "American",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-grill"
+    },
+    {
+      "name": "Cafe Mado",
+      "cuisine": "American Contemporary",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/cafe-mado"
+    },
+    {
+      "name": "Le Jardinier New York",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-jardinier"
+    },
+    {
+      "name": "Chalong",
+      "cuisine": "Thai",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chalong"
+    },
+    {
+      "name": "Lobster Club",
+      "cuisine": "Japanese",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/lobster-club"
+    },
+    {
+      "name": "LORE",
+      "cuisine": "Contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/lore"
+    },
+    {
+      "name": "Gallaghers",
+      "cuisine": "Steakhouse",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/gallaghers"
+    },
+    {
+      "name": "Santi",
+      "cuisine": "Italian Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/santi"
+    },
+    {
+      "name": "53",
+      "cuisine": "Asian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/53"
+    },
+    {
+      "name": "The Modern",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-modern"
+    },
+    {
+      "name": "Caviar Russe",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/caviar-russe"
+    },
+    {
+      "name": "Benoit",
+      "cuisine": "French",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/benoit"
+    },
+    {
+      "name": "YingTao",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/yingtao"
+    },
+    {
+      "name": "Aquavit",
+      "cuisine": "Scandinavian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/aquavit"
+    },
+    {
+      "name": "Hyderabadi Zaiqa",
+      "cuisine": "Indian",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/hyderabadi-zaiqa"
+    },
+    {
+      "name": "Four Twenty Five",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/four-twenty-five"
+    },
+    {
+      "name": "Chavela’s",
+      "cuisine": "Mexican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/chavela-s"
+    },
+    {
+      "name": "Roberta's",
+      "cuisine": "Pizza",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/roberta-s"
+    },
+    {
+      "name": "Agi's Counter",
+      "cuisine": "Creative",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/agi-s-counter"
+    },
+    {
+      "name": "Chola",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chola"
+    },
+    {
+      "name": "Sobre Masa",
+      "cuisine": "Mexican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/sobre-masa"
+    },
+    {
+      "name": "Marea",
+      "cuisine": "Seafood",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/marea"
+    },
+    {
+      "name": "Per Se",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/per-se"
+    },
+    {
+      "name": "Le Veau d'Or",
+      "cuisine": "French",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/le-veau-d-or"
+    },
+    {
+      "name": "Masa",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/masa"
+    },
+    {
+      "name": "Daphne's",
+      "cuisine": "Italian-American",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/daphne-s"
+    },
+    {
+      "name": "Jean-Georges",
+      "cuisine": "Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/jean-georges"
+    },
+    {
+      "name": "Café Boulud",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cafe-boulud"
+    },
+    {
+      "name": "Lungi",
+      "cuisine": "Sri Lankan",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/lungi"
+    },
+    {
+      "name": "Vert Frais",
+      "cuisine": "Japanese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/long-island-city/restaurant/vert-frais"
+    },
+    {
+      "name": "JoJo",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/jojo"
+    },
+    {
+      "name": "Tatiana",
+      "cuisine": "Fusion",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tatiana"
+    },
+    {
+      "name": "Bayon",
+      "cuisine": "Cambodian",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bayon"
+    },
+    {
+      "name": "Daniel",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/daniel"
+    },
+    {
+      "name": "The Leopard at Des Artistes",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/the-leopard-at-des-artistes"
+    },
+    {
+      "name": "El Fish Marisqueria",
+      "cuisine": "Mexican",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/el-fish-marisqueria"
+    },
+    {
+      "name": "Cafe Commerce",
+      "cuisine": "American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cafe-commerce"
+    },
+    {
+      "name": "Tong",
+      "cuisine": "Thai",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/tong"
+    },
+    {
+      "name": "Risbo",
+      "cuisine": "American",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/risbo"
+    },
+    {
+      "name": "Mission Ceviche",
+      "cuisine": "Peruvian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/mission-ceviche"
+    },
+    {
+      "name": "Bohemian Spirit",
+      "cuisine": "Czech",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/bohemian-spirit"
+    },
+    {
+      "name": "Persepolis",
+      "cuisine": "Persian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/persepolis"
+    },
+    {
+      "name": "Chez Fifi",
+      "cuisine": "French",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chez-fifi-1212832"
+    },
+    {
+      "name": "Gordo's Cantina",
+      "cuisine": "Mexican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/gordo-s-cantina"
+    },
+    {
+      "name": "J.G. Melon",
+      "cuisine": "American",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/j-g-melon"
+    },
+    {
+      "name": "Kebab aur Sharab",
+      "cuisine": "Indian",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/kebab-aur-sharab"
+    },
+    {
+      "name": "Orsay",
+      "cuisine": "French",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/orsay"
+    },
+    {
+      "name": "Sushi Akira",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sushi-akira-1241412"
+    },
+    {
+      "name": "Sempre Oggi",
+      "cuisine": "Italian",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sempre-oggi"
+    },
+    {
+      "name": "Sushi Noz",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/sushi-noz"
+    },
+    {
+      "name": "Essential by Christophe",
+      "cuisine": "French Contemporary",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/essential-by-christophe"
+    },
+    {
+      "name": "Covacha",
+      "cuisine": "Mexican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/covacha"
+    },
+    {
+      "name": "Cardamom",
+      "cuisine": "Indian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/cardamom"
+    },
+    {
+      "name": "Tha Phraya",
+      "cuisine": "Thai contemporary",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/tha-phraya"
+    },
+    {
+      "name": "Chuan Tian Xia",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/chuan-tian-xia"
+    },
+    {
+      "name": "Ly Ly Vietnam Cookhouse",
+      "cuisine": "Vietnamese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/ly-ly-vietnam-cookhouse"
+    },
+    {
+      "name": "Olmo",
+      "cuisine": "Mexican",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/olmo-1244242"
+    },
+    {
+      "name": "Cafe Sabarsky",
+      "cuisine": "Austrian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/cafe-sabarsky"
+    },
+    {
+      "name": "Eléa",
+      "cuisine": "Greek",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/elea-greek"
+    },
+    {
+      "name": "Rolo's",
+      "cuisine": "American",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/rolo-s"
+    },
+    {
+      "name": "East Harbor Seafood Palace",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/east-harbor-seafood-palace"
+    },
+    {
+      "name": "il Gigante",
+      "cuisine": "Italian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/il-gigante-1218340"
+    },
+    {
+      "name": "Chick Chick",
+      "cuisine": "Asian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/chick-chick"
+    },
+    {
+      "name": "Dagon",
+      "cuisine": "Mediterranean Cuisine",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/dagon"
+    },
+    {
+      "name": "Tanoreen",
+      "cuisine": "Middle Eastern",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/tanoreen"
+    },
+    {
+      "name": "Yemenat",
+      "cuisine": "Middle Eastern",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/yemenat"
+    },
+    {
+      "name": "Enoteca Maria",
+      "cuisine": "Italian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/staten-island/restaurant/enoteca-maria"
+    },
+    {
+      "name": "Sagara",
+      "cuisine": "Sri Lankan",
+      "price": "$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/staten-island/restaurant/sagara"
+    },
+    {
+      "name": "Phayul",
+      "cuisine": "Tibetan",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/phayul"
+    },
+    {
+      "name": "Zaab Zaab",
+      "cuisine": "Thai",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/zaab-zaab"
+    },
+    {
+      "name": "Miss Mamie's Spoonbread Too",
+      "cuisine": "Southern",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/miss-mamie-s-spoonbread-too"
+    },
+    {
+      "name": "Taverna Kyclades",
+      "cuisine": "Greek",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/astoria/restaurant/taverna-kyclades"
+    },
+    {
+      "name": "Seppe Pizza Bar",
+      "cuisine": "Pizza",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/staten-island/restaurant/seppe-pizza-bar"
+    },
+    {
+      "name": "Melba's",
+      "cuisine": "Southern",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/melba-s"
+    },
+    {
+      "name": "SaRanRom Thai",
+      "cuisine": "Thai",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/saranrom-thai"
+    },
+    {
+      "name": "Lakruwana",
+      "cuisine": "Sri Lankan",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/staten-island/restaurant/lakruwana"
+    },
+    {
+      "name": "Barawine",
+      "cuisine": "Contemporary",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/barawine"
+    },
+    {
+      "name": "Neta Shari",
+      "cuisine": "Japanese",
+      "price": "$$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/brooklyn/restaurant/neta-shari"
+    },
+    {
+      "name": "Oso",
+      "cuisine": "Mexican",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/oso"
+    },
+    {
+      "name": "Seis Vecinos",
+      "cuisine": "Latin American",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/bronx/restaurant/seis-vecinos"
+    },
+    {
+      "name": "Caleta 111 Cevicheria",
+      "cuisine": "Peruvian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/caleta-111-cevicheria"
+    },
+    {
+      "name": "Asian Jewels",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/asian-jewels"
+    },
+    {
+      "name": "Jiang Nan",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/jiang-nan"
+    },
+    {
+      "name": "Alley 41",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/alley-41"
+    },
+    {
+      "name": "Tong Sam Gyup Goo Yi",
+      "cuisine": "Korean",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/tong-sam-gyup-goo-yi"
+    },
+    {
+      "name": "Çka Ka Qëllu",
+      "cuisine": "Balkan",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/bronx/restaurant/cka-ka-qellu"
+    },
+    {
+      "name": "Tra Di Noi",
+      "cuisine": "Italian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/bronx/restaurant/tra-di-noi"
+    },
+    {
+      "name": "Legend of Taste",
+      "cuisine": "Chinese",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/queens/restaurant/legend-of-taste"
+    },
+    {
+      "name": "Patricia’s",
+      "cuisine": "Italian-American",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/bronx/restaurant/patricia-s"
+    },
+    {
+      "name": "Tobalá",
+      "cuisine": "Mexican",
+      "price": "$$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/bronx/restaurant/tobala"
+    },
+    {
+      "name": "Dubrovnik",
+      "cuisine": "Croatian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-rochelle/restaurant/dubrovnik1184228"
+    },
+    {
+      "name": "Maria Restaurant",
+      "cuisine": "Italian",
+      "price": "$$",
+      "url": "https://guide.michelin.com/us/en/new-york-state/new-rochelle/restaurant/maria-restaurant"
+    }
+  ]
+}
