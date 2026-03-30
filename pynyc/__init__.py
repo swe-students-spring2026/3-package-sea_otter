@@ -3,5 +3,7 @@ from .pynyc import (
     find_restaurant,
     find_nightlife_activity,
     list_nightlife_places,
+    list_excursions,
+    find_excursion,
     ACTIVITIES,
 )
