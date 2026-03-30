@@ -46,7 +46,7 @@ ACTIVITIES["cold"] = ACTIVITIES["freezing"]
 
 
 restaurant_list = {
-    "American": {
+    "american": {
         1: "Carmine's",
         2: "Jacob's Pickles",
         3: "Nightly",
@@ -98,7 +98,7 @@ restaurant_list = {
         49: "Balthazar",
         50: "The Waverly Inn",
     },
-    "Italian": {
+    "italian": {
         1: "Trattoria Dell'Arte",
         2: "L'Artusi",
         3: "Via Carota",
@@ -150,7 +150,7 @@ restaurant_list = {
         49: "Fiorini",
         50: "Scalini Fedeli",
     },
-    "Chinese": {
+    "chinese": {
         1: "Nan Xiang Xiao Long Bao",
         2: "Joe's Shanghai",
         3: "Xi'an Famous Foods",
@@ -201,7 +201,7 @@ restaurant_list = {
         48: "New York Noodle Town",
         49: "Mission Chinese Food",
         50: "Hutong",
-    },"French": {
+    },"french": {
         1: "Bar Boulud",
         2: "Raoul's",
         3: "Buvette",
@@ -252,7 +252,7 @@ restaurant_list = {
         48: "Chez Laurence",
         49: "La Goulue",
         50: "Calliope",
-    },"Japanese": {
+    },"japanese": {
         1: "Totto Ramen",
         2: "Ippudo",
         3: "Ichiran",
@@ -303,7 +303,7 @@ restaurant_list = {
         48: "Natsumi",
         49: "Sushisamba",
         50: "Paowalla (Japanese fusion)",
-    }, "Mexican": {
+    }, "mexican": {
         1: "Los Tacos No. 1",
         2: "Empellón Taqueria",
         3: "Tacombi",
@@ -354,7 +354,7 @@ restaurant_list = {
         48: "Zona Rosa",
         49: "Atla",
         50: "Pio Pio",
-    }, "Indian": {
+    }, "indian": {
         1: "Tamarind",
         2: "Brick Lane Curry House",
         3: "Curry in a Hurry",
@@ -457,7 +457,7 @@ restaurant_list = {
         49: "Jua",
         50: "Seoul Chicken",
     },
-    "Thai": {
+    "thai": {
         1: "Pok Pok NY",
         2: "Ugly Baby",
         3: "Pure Thai Cookhouse",
@@ -537,8 +537,16 @@ def _load_michelin() -> dict[str, dict[int, str]]:
 michelin_restaurants_list: Final[dict[str, dict[int, str]]] = _load_michelin()
     
 def find_restaurant(cuisuine: str, hours: int | None = 12):
-    restaurant_id = random.randint(1, len(restaurant_list[cuisuine]))
-    restaurant = restaurant_list[cuisuine][restaurant_id]
+    c_list = ["american","italian","chinese","french","japanese","mexican","indian","korean","thai"]
+    for c in c_list:
+        if cuisuine.lower()[0:2]==c[0:3]:
+            cuisuine = c
+            break
+    if cuisuine not in c_list:
+        return "Google and ask it to generate one restaurant for this cuisine, we don't have a great choice of this yet oops."
+    
+    restaurant_id = random.randint(0, len(restaurant_list[cuisuine])) #randomize one restaurant_id for a specific cuisuine
+    restaurant = restaurant_list[cuisuine][restaurant_id] #here's the generated restaurant
     return restaurant
 
 def find_activity(weather: str) -> str:
