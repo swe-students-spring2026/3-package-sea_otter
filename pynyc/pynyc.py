@@ -536,7 +536,8 @@ def _load_michelin() -> dict[str, dict[int, str]]:
 
 michelin_restaurants_list: Final[dict[str, dict[int, str]]] = _load_michelin()
     
-def find_restaurant(cuisuine: str, hours: int | None = 12):
+def find_restaurant(cuisuine: str, michelin:bool| None = False,hours: int | None = 12):
+    
     c_list = ["american","italian","chinese","french","japanese","mexican","indian","korean","thai"]
     for c in c_list:
         if cuisuine.lower()[0:2]==c[0:3]:
