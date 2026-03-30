@@ -1,6 +1,6 @@
 import pytest
 import pynyc
-from pynyc import EXCURSION_OPTIONS
+from pynyc.pynyc import EXCURSION_OPTIONS
 
 def test_list_excursions_returns_expected_keys():
     for category in ("nature", "historic", "coastal"):
@@ -20,7 +20,7 @@ def test_find_excursion_invalid_category():
 
 def test_find_excursion_is_subset_of_list(monkeypatch):
     monkeypatch.setattr(
-        "pynyc.random.choice",
+        "pynyc.pynyc.random.choice",
         lambda xs: xs[0],
     )
     picked = pynyc.find_excursion("coastal")

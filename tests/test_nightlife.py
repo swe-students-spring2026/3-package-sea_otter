@@ -19,8 +19,8 @@ def test_list_nightlife_places_returns_real_dancing_options():
 
 
 def test_find_nightlife_activity_supports_aliases(monkeypatch):
-    monkeypatch.setattr(
-        "pynyc.random.choice",
+    monkeypatch.setattr( 
+        "pynyc.pynyc.random.choice",
         lambda places: places[0],
     )
 
