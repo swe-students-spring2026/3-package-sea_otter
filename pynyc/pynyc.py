@@ -49,7 +49,7 @@ def _load_restaurants() -> dict[str, dict[int, str]]:
         payload = json.load(data_file)
 
     return {
-        cuisine: {int(index): name for index, name in places.items()}
+        cuisine.lower(): {int(index): name for index, name in places.items()}
         for cuisine, places in payload.items()
     }
 
