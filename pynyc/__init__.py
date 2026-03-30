@@ -155,3 +155,87 @@ def find_nightlife_activity(vibe: str) -> NightlifeRecommendation:
         "name": venue["name"],
         "website": venue["website"],
     }
+
+class Excursion(TypedDict):
+    name: str
+    location: str
+    website: str
+
+class ExcursionCategory(TypedDict):
+    excursion_type: str
+    places: list[Excursion]
+
+EXCURSION_OPTIONS: Final[dict[str, ExcursionCategory]] = {
+    "nature": {
+        "excursion_type": "nature",
+        "places": [
+            {
+                "name": "Bear Mountain State Park",
+                "location": "Bear Mountain, NY",
+                "website": "https://parks.ny.gov/parks/13/details.aspx",
+            },
+            {
+                "name": "Cold Spring & Breakneck Ridge",
+                "location": "Cold Spring, NY",
+                "website": "https://parks.ny.gov/parks/hudsonhighlands/details.aspx",
+            },
+            {
+                "name": "Storm King Art Center",
+                "location": "New Windsor, NY",
+                "website": "https://www.stormking.org/",
+            },
+        ],
+    },
+    "historic": {
+        "excursion_type": "historic",
+        "places": [
+            {
+                "name": "Sleepy Hollow",
+                "location": "Sleepy Hollow, NY",
+                "website": "https://www.visitwestchesterny.com/",
+            },
+            {
+                "name": "Kykuit Estate",
+                "location": "Pocantico Hills, NY",
+                "website": "https://www.rbf.org/",
+            },
+        ],
+    },
+    "coastal": {
+        "excursion_type": "coastal",
+        "places": [
+            {
+                "name": "Montauk Lighthouse",
+                "location": "Montauk, NY",
+                "website": "https://montaukhistoricalsociety.org/",
+            },
+            {
+                "name": "Asbury Park Boardwalk",
+                "location": "Asbury Park, NJ",
+                "website": "https://www.apboardwalk.com/",
+            },
+        ],
+    },
+}
+
+EXCURSION_ALIASES: Final[dict[str, str]] = {
+    "beach": "coastal",
+    "coastal": "coastal",
+    "historic": "historic",
+    "history": "historic",
+    "nature": "nature",
+    "outdoors": "nature",
+}
+
+def _normalize_excursion(category: str) -> str:
+    key = " ".join(category.strip().lower().replace("-", " ").replace("_", " ").split())
+    if key not in EXCURSION_ALIASES:
+        raise ValueError(f"Unknown category '{category}'. Try: {', '.join(EXCURSION_OPTIONS)}")
+    return EXCURSION_ALIASES[key]
+
+def list_excursions(category: str) -> list[Excursion]:
+    return [p.copy() for p in EXCURSION_OPTIONS[_normalize_excursion(category)]["places"]]
+
+
+def find_excursion(category: str) -> Excursion:
+    return random.choice(list_excursions(category))

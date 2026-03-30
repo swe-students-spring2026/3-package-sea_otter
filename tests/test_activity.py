@@ -1,4 +1,4 @@
-from Pynyc import ACTIVITIES, find_activity
+from pynyc import ACTIVITIES, find_activity
 
 def test_activity_rainy():
     result = find_activity("rainy")

@@ -7,7 +7,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from Pynyc import find_nightlife_activity, list_nightlife_places
+from pynyc import find_nightlife_activity, list_nightlife_places
 
 
 def test_list_nightlife_places_returns_real_dancing_options():
@@ -19,8 +19,8 @@ def test_list_nightlife_places_returns_real_dancing_options():
 
 
 def test_find_nightlife_activity_supports_aliases(monkeypatch):
-    monkeypatch.setattr( 
-        "Pynyc.random.choice",
+    monkeypatch.setattr(
+        "pynyc.random.choice",
         lambda places: places[0],
     )
 
