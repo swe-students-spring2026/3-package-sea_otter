@@ -506,6 +506,7 @@ restaurant_list = {
         48: "Thai House",
         49: "Thai Delight",
         50: "Bangkok Centre",
+        51:"Lum Lum"
     }
 }
     
