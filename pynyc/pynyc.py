@@ -1,4 +1,6 @@
+import json
 import random
+from pathlib import Path
 from typing import Final, TypedDict
 
 ACTIVITIES = {
@@ -201,6 +203,30 @@ restaurant_list = {
         50: "Hutong",
     },
 }
+
+def _load_michelin() -> dict[str, dict[int, str]]:
+    data_path = Path(__file__).resolve().parent / "data" / "michelin_nyc.json"
+    with data_path.open("r", encoding="utf-8") as data_file:
+        payload = json.load(data_file)
+
+    grouped: dict[str, list[str]] = {}
+    for restaurant in payload.get("restaurants", []):
+        cuisine = str(restaurant.get("cuisine", "")).strip()
+        name = str(restaurant.get("name", "")).strip()
+        if not cuisine or not name:
+            continue
+        if cuisine not in grouped:
+            grouped[cuisine] = []
+        if name not in grouped[cuisine]:
+            grouped[cuisine].append(name)
+
+    return {
+        cuisine: {index + 1: name for index, name in enumerate(names)}
+        for cuisine, names in grouped.items()
+    }
+
+
+michelin_restaurants_list: Final[dict[str, dict[int, str]]] = _load_michelin()
     
 def find_restaurant(cuisuine: str, hours: int | None = 12):
     restaurant_id = random.randint(1, len(restaurant_list[cuisuine]))
