@@ -53,7 +53,6 @@ def _load_restaurants() -> dict[str, dict[int, str]]:
         for cuisine, places in payload.items()
     }
 
-restaurant_list: Final[dict[str, dict[int, str]]] = _load_restaurants()
 
 def _load_michelin() -> dict[str, dict[int, str]]:
     data_path = Path(__file__).resolve().parent / "data" / "michelin_nyc.json"
@@ -62,7 +61,7 @@ def _load_michelin() -> dict[str, dict[int, str]]:
 
     grouped: dict[str, list[str]] = {}
     for restaurant in payload.get("restaurants", []):
-        cuisine = str(restaurant.get("cuisine", "")).strip()
+        cuisine = str(restaurant.get("cuisine", "")).strip().lower()
         name = str(restaurant.get("name", "")).strip()
         if not cuisine or not name:
             continue
@@ -78,19 +77,24 @@ def _load_michelin() -> dict[str, dict[int, str]]:
 
 
 michelin_restaurants_list: Final[dict[str, dict[int, str]]] = _load_michelin()
+michelin_c: Final[list[str]] = sorted({cuisine.lower() for cuisine in michelin_restaurants_list.keys()})
+restaurant_list: Final[dict[str, dict[int, str]]] = _load_restaurants()
+c_list: Final[list[str]] = sorted({cuisine.lower() for cuisine in restaurant_list.keys()})
     
 def find_restaurant(cuisuine: str, michelin:bool| None = False,hours: int | None = 12):
+    cuisuine = cuisuine.lower()
+    if(michelin==True): # if the user prefer micheline 
+        if cuisuine not in michelin_c:
+            return "Google and ask it to generate one restaurant for this cuisine, we don't have a great choice of this yet oops."
+        restaurant_id = random.randint(1, len(michelin_restaurants_list[cuisuine])) #randomize one restaurant_id for a specific cuisuine
+        restaurant = michelin_restaurants_list[cuisuine][restaurant_id] #here's the generated micheline restaurant
+    else:
+        if cuisuine not in c_list:
+            return "Google and ask it to generate one restaurant for this cuisine, we don't have a great choice of this yet oops."
+        
+        restaurant_id = random.randint(1, len(restaurant_list[cuisuine])) #randomize one restaurant_id for a specific cuisuine
+        restaurant = restaurant_list[cuisuine][restaurant_id] #here's the generated restaurant
     
-    c_list = ["american","italian","chinese","french","japanese","mexican","indian","korean","thai"]
-    for c in c_list:
-        if cuisuine.lower()[0:2]==c[0:3]:
-            cuisuine = c
-            break
-    if cuisuine not in c_list:
-        return "Google and ask it to generate one restaurant for this cuisine, we don't have a great choice of this yet oops."
-    
-    restaurant_id = random.randint(0, len(restaurant_list[cuisuine])) #randomize one restaurant_id for a specific cuisuine
-    restaurant = restaurant_list[cuisuine][restaurant_id] #here's the generated restaurant
     return restaurant
 
 def find_activity(weather: str) -> str:
