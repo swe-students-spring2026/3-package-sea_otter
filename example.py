@@ -11,3 +11,10 @@ else:
 restaurant = demo.find_restaurant(cuisine,micheline)
 
 print(f"Go to {restaurant}")
+
+
+# Cafe
+time = input("What time of day is it? (EXP: morning, afternoon, evening) ")
+cafe = demo.get_cafe(time.lower())
+
+print(f"You should check out {cafe}")
