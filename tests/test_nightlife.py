@@ -30,7 +30,7 @@ def test_find_nightlife_activity_supports_aliases(monkeypatch):
         "vibe": "singing",
         "activity_type": "karaoke",
         "name": "Planet Rose",
-        "website": "https://planetrose.com/",
+        "website": "https://www.planetrosenyc.com/",
     }
 
 
