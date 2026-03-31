@@ -11,5 +11,7 @@
 [Albert Chen](https://github.com/azc9673)
 [Blake Chang](https://github.com/louisvcarpet)
 [Valeria Chang](https://github.com/ValeriaChang)
+[Vincent Camp](https://github.com/vincentcamp)
+
 
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
