@@ -30,7 +30,7 @@ def test_activity_cold():
     assert result is not None
     assert result in ACTIVITIES["freezing"]
 
-def test_activity_case_insensitive():
+def test_activity_case():
     result = find_activity("RAINY")
     assert result is not None
     assert "not valid" not in result
