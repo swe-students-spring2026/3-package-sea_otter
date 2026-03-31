@@ -9,6 +9,7 @@
 ## Developers
 
 [Albert Chen](https://github.com/azc9673)
+[Blake Chang](https://github.com/louisvcarpet)
 [Valeria Chang](https://github.com/ValeriaChang)
 [Vincent Campanaro](https://github.com/vincentcamp)
 
