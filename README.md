@@ -2,6 +2,8 @@
 
 [![CI/CD](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/build.yml/badge.svg)](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/build.yml)
 
+[pynyc on PyPI](https://pypi.org/project/pynyc/)
+
 ## Description
 A python package that returns fun NYC plans and recommendations! 
 
