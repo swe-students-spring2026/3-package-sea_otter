@@ -1,5 +1,3 @@
-import pytest
-
 from pynyc import find_restaurant as fr
 from pynyc.pynyc import restaurant_list, michelin_restaurants_list
 
