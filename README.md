@@ -149,6 +149,32 @@ See the full working example in [example.py](./example.py).
 
 ---
 
+---
+
+## `get_cafe(time)`
+
+Returns a recommended cafe in New York City based on the time of day.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `time` | `str` | Yes | Time of day (`"morning"`, `"afternoon"`, `"evening"`) |
+
+### Example usage
+
+```python
+import pynyc
+
+cafe = pynyc.get_cafe("morning")
+print(f"You should check out {cafe}")
+```
+
+Input is **case-insensitive** - `"MORNING"`, `"Morning"`, and `"morning"` all work the same.
+
+If the input is invalid, the function returns a helpful error message.
+
+See the full working example in [example.py](./example.py).
+
+
 ## Setting Up for Development
 
 ### Prerequisites
