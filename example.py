@@ -2,7 +2,7 @@ import pynyc as demo
 
 print("Welcome to our NYC weekend planner service. Having trouble to decide what to do? We got you!")
 
-cuisine = input("Hi what you want for dinner? (EXP: American/Italian/Chinese...etc.) ")
+cuisine = input("Hi which type of restaurant do you want for your awesome weekend? (EXP: American/Italian/Chinese...etc.) ")
 micheline = input("Do you prefer a Michelin restaurant?(yes/no/y/n)  ")
 if(micheline.lower()=="yes" or micheline.lower()=="y"):
     micheline =True
