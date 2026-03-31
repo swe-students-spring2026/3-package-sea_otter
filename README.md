@@ -2,9 +2,12 @@
 
 [![workflow_run](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml/badge.svg)](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml)
 
+## Description
+A python package that returns fun NYC plans and recommendations! 
+
 ## Github
 
-[Link](https://github.com/swe-students-spring2026/3-package-sea_otter)
+[Github Link](https://github.com/swe-students-spring2026/3-package-sea_otter)
 
 ## Developers
 
@@ -12,6 +15,7 @@
 [Blake Chang](https://github.com/louisvcarpet)
 [Valeria Chang](https://github.com/ValeriaChang)
 [Vincent Campanaro](https://github.com/vincentcamp)
+[Sasha Cartagena](https://github.com/sashacartagena)
 
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
 
@@ -52,6 +56,28 @@ print(f"Go to {restaurant}")
 ```
 
 Input is **case-insensitive** for better efficiency— `"ITALIAN"`, `"Italian"`, and `"italian"` all work the same.
+
+## `find_activity(weather)`
+
+Returns an activity recommendation in NYC based on the weather.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `weather` | `str` | Yes | The weather outside (e.g. `"hot"`, `"freezing"`, `"perfect"`, `"rainy"`) |
+
+Input is **case-insensitive** - `"sunny"`, `"Sunny"`, and `"SUNNY"` all work the same.
+
+See the full working example in [example.py](./example.py).
+
+### Example usage
+
+```python
+import pynyc
+
+#Prints an actvity suitable for sunny weather
+activity = pynyc.find_activity("sunny")
+print(activity)
+```
 
 ## `find_nightlife_activity(vibe)`
 
