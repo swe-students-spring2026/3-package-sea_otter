@@ -1,6 +1,6 @@
-# Python Package Exercise
+# pynyc
 
-[![workflow_run](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml/badge.svg)](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/event-logger.yml)
+[![CI/CD](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/build.yml/badge.svg)](https://github.com/swe-students-spring2026/3-package-sea_otter/actions/workflows/build.yml)
 
 ## Description
 A python package that returns fun NYC plans and recommendations! 
@@ -294,7 +294,7 @@ pipenv run python example.py
 
 ## Environment Variables
 
-This package does **not** require any environment variables or external database setup. All data is bundled with the package in the `Pynyc/data/` directory.
+This package does **not** require any environment variables or external database setup. All data is bundled with the package in the `pynyc/data/` directory.
 
 No `.env` file is needed.
 

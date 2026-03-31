@@ -32,8 +32,5 @@ dev = ["pytest"]
 "Repository" = "https://github.com/swe-students-spring2026/3-package-sea_otter.git"
 "Bug Tracker" = "https://github.com/swe-students-spring2026/3-package-sea_otter/issues"
 
-[project.scripts]
-pynyc = "pynyc.__main__:main"
-
 [tool.setuptools.package-data]
 "pynyc" = ["data/*.json"]
