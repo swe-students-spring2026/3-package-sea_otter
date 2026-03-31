@@ -29,6 +29,33 @@ time = input("What time of day is it? (EXP: morning, afternoon, evening) ")
 cafe = demo.get_cafe(time.lower())
 print(f"You should check out {cafe}")
 
+# Excursion
+while True:
+    excursion_category = input(
+        "Looking for something for the daytime? What kind of excursion interests you? "
+        "(nature, historic, or coastal) "
+    )
+    try:
+        excursion = demo.find_excursion(excursion_category)
+        break
+    except ValueError as error:
+        print(error)
+        print("Please try again.")
+
+print(
+    f"You should check out {excursion['name']} in {excursion['location']}. "
+)
+print(f"Website: {excursion['website']} ")
+
+more_excursions = input(
+    "Want to see more options for this type of excursion? "
+    "(yes/no/y/n) "
+)
+if more_excursions.lower() == "yes" or more_excursions.lower() == "y":
+    excursion_list = demo.list_excursions(excursion_category)
+    print("Here are some more excursion options for you: ")
+    for place in excursion_list:
+        print(f"- {place['name']}: {place['website']}")
 
 while True:
     nightlife_vibe = input(
