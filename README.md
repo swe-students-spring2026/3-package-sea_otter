@@ -17,8 +17,6 @@ A python package that returns fun NYC plans and recommendations!
 [Vincent Campanaro](https://github.com/vincentcamp)
 [Sasha Cartagena](https://github.com/sashacartagena)
 
-An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
-
 ---
 
 ## Installing the Package
@@ -27,6 +25,11 @@ Install `pynyc` directly from PyPI:
 
 ```bash
 pip install pynyc
+```
+
+Then import it in your Python code:
+```python
+import pynyc
 ```
 
 ---
@@ -279,15 +282,14 @@ pipenv shell
 ### 4. Run the tests
 
 ```bash
-pipenv run pytest
+pipenv run python -m pytest
 ```
 
 All tests should pass. If they don't, check that you are using Python 3.10 or later.
 
-### 5. Run the example program
-
+### 5. Build the package
 ```bash
-pipenv run python example.py
+pipenv run python -m build
 ```
 
 ---
