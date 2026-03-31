@@ -41,21 +41,17 @@ Returns a restaurant name in New York City for a given cuisine type.
 ```python
 import pynyc
 
-# Get any Italian restaurant
+# Generate any Italian restaurant
 restaurant = pynyc.find_restaurant("italian")
 print(f"Go to {restaurant}")
 
-# Get a Michelin-listed Japanese restaurant
+# Help you to pick a Michelin-listed Japanese restaurant
 restaurant = pynyc.find_restaurant("japanese", michelin=True)
 print(f"Go to {restaurant}")
 
-# Invalid cuisine returns a helpful message instead of crashing
-result = pynyc.find_restaurant("klingon")
-print(result)
-# Google and ask it to generate one restaurant for this cuisine, we don't have a great choice of this yet oops.
 ```
 
-Input is **case-insensitive** — `"ITALIAN"`, `"Italian"`, and `"italian"` all work the same.
+Input is **case-insensitive** for better efficiency— `"ITALIAN"`, `"Italian"`, and `"italian"` all work the same.
 
 ## `find_nightlife_activity(vibe)`
 
@@ -175,17 +171,10 @@ pipenv run python example.py
 
 ## Environment Variables
 
-This package does **not** require any environment variables or external database setup. All restaurant and activity data is bundled with the package in the `Pynyc/data/` directory.
+This package does **not** require any environment variables or external database setup. All data is bundled with the package in the `Pynyc/data/` directory.
 
 No `.env` file is needed.
 
 ---
 
-## Team
 
-| Name | GitHub |
-|---|---|
-| Albert Chen | [@azc9673](https://github.com/azc9673) |
-| Blake Chang | [@louisvcarpet](https://github.com/louisvcarpet) |
-| Valeria Chang | [@ValeriaChang](https://github.com/ValeriaChang) |
-| Vincent Camp | [@vincentcamp](https://github.com/vincentcamp) |
