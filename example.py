@@ -1,4 +1,4 @@
-import pynyc as demo
+import pynyc
 
 print("Welcome to our NYC weekend planner service. Having trouble to decide what to do? We got you!")
 
@@ -8,7 +8,7 @@ if(micheline.lower()=="yes" or micheline.lower()=="y"):
     micheline =True
 else: 
     micheline=False
-restaurant = demo.find_restaurant(cuisine,micheline)
+restaurant = pynyc.find_restaurant(cuisine,micheline)
 
 print(f"Go to {restaurant}")
 
@@ -16,7 +16,7 @@ print(f"Go to {restaurant}")
 while True:
     weather = input("Let's find something to do. What's the weather like outside? "
     "(rainy, sunny, freezing, cold, hot, or perfect) ")
-    activity = demo.find_activity(weather)
+    activity = pynyc.find_activity(weather)
     if "not valid" in activity:
         print(activity)
     else:
@@ -26,7 +26,7 @@ print(activity)
 
 # Cafe
 time = input("What time of day is it? (EXP: morning, afternoon, evening) ")
-cafe = demo.get_cafe(time.lower())
+cafe = pynyc.get_cafe(time.lower())
 print(f"You should check out {cafe}")
 
 # Excursion
@@ -36,7 +36,7 @@ while True:
         "(nature, historic, or coastal) "
     )
     try:
-        excursion = demo.find_excursion(excursion_category)
+        excursion = pynyc.find_excursion(excursion_category)
         break
     except ValueError as error:
         print(error)
@@ -52,7 +52,7 @@ more_excursions = input(
     "(yes/no/y/n) "
 )
 if more_excursions.lower() == "yes" or more_excursions.lower() == "y":
-    excursion_list = demo.list_excursions(excursion_category)
+    excursion_list = pynyc.list_excursions(excursion_category)
     print("Here are some more excursion options for you: ")
     for place in excursion_list:
         print(f"- {place['name']}: {place['website']}")
@@ -64,7 +64,7 @@ while True:
     )
 
     try:
-        nightlife_activity = demo.find_nightlife_activity(nightlife_vibe)
+        nightlife_activity = pynyc.find_nightlife_activity(nightlife_vibe)
         break
     except ValueError as error:
         print(error)
@@ -81,7 +81,7 @@ more_nightlife = input(
     "(yes/no/y/n) "
 )
 if more_nightlife.lower() == "yes" or more_nightlife.lower() == "y":
-    nightlife_places = demo.list_nightlife_places(nightlife_vibe)
+    nightlife_places = pynyc.list_nightlife_places(nightlife_vibe)
     print("Here are some more nightlife options for you: ")
     for place in nightlife_places:
         print(f"- {place['name']}: {place['website']}")
