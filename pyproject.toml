@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pynyc"
-version = "0.1.0"
-description = "An opinionated NYC weekend planner for developers"
+version = "0.1.1"
+description = "A fun NYC weekend plan recommender for developers"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {file = "LICENSE"}
