@@ -427,3 +427,4 @@ def get_cafe(time: str) -> str:
     if time not in cafes:
         return f"'{time}' is not valid. Try: morning, afternoon, evening."
     return random.choice(cafes[time])
+
