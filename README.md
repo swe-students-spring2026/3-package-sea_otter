@@ -57,6 +57,72 @@ print(result)
 
 Input is **case-insensitive** — `"ITALIAN"`, `"Italian"`, and `"italian"` all work the same.
 
+## `find_nightlife_activity(vibe)`
+
+Returns one nightlife recommendation in New York City for a given vibe.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `vibe` | `str` | Yes | The nightlife vibe you want (e.g. `"dancing"`, `"singing"`, `"laughing"`, `"music and vibes"`) |
+
+### Example usage
+
+```python
+import pynyc
+
+# Get one random dancing recommendation
+activity = pynyc.find_nightlife_activity("dancing")
+print(f"Go to {activity['name']} for {activity['activity_type']}")
+print(f"Website: {activity['website']}")
+
+# Aliases also work
+activity = pynyc.find_nightlife_activity("karaoke")
+print(activity)
+
+# Invalid vibes raise a helpful error instead of crashing silently
+try:
+    pynyc.find_nightlife_activity("quiet reading")
+except ValueError as error:
+    print(error)
+```
+
+Input is **case-insensitive** - `"DANCING"`, `"Dancing"`, and `"dancing"` all work the same.
+
+See the full working example in [example.py](./example.py).
+
+---
+
+## `list_nightlife_places(vibe)`
+
+Returns a list of nightlife places in New York City for a given vibe.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `vibe` | `str` | Yes | The nightlife vibe you want (e.g. `"dancing"`, `"singing"`, `"laughing"`, `"music and vibes"`) |
+
+### Example usage
+
+```python
+import pynyc
+
+# Get all nightlife places for a dancing vibe
+places = pynyc.list_nightlife_places("dancing")
+for place in places:
+    print(f"{place['name']}: {place['website']}")
+
+# Aliases also work
+places = pynyc.list_nightlife_places("club")
+print(places[0])
+
+# Invalid vibes raise a helpful error instead of crashing silently
+try:
+    pynyc.list_nightlife_places("quiet reading")
+except ValueError as error:
+    print(error)
+```
+
+Input is **case-insensitive** - `"DANCING"`, `"Dancing"`, and `"dancing"` all work the same.
+
 See the full working example in [example.py](./example.py).
 
 ---
