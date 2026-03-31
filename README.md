@@ -174,6 +174,77 @@ If the input is invalid, the function returns a helpful error message.
 
 See the full working example in [example.py](./example.py).
 
+---
+
+## `find_excursion(category)`
+
+Returns one excursion recommendation in New York City for a given category.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `category` | `str` | Yes | The excursion category you want (e.g. `"nature"`, `"historic"`, `"coastal"`) |
+
+### Example usage
+
+```python
+import pynyc
+
+# Get one random nature excursion
+excursion = pynyc.find_excursion("nature")
+print(f"Go to {excursion['name']} in {excursion['location']}")
+print(f"Website: {excursion['website']}")
+
+# Aliases also work
+excursion = pynyc.find_excursion("beach")
+print(excursion)
+
+# Invalid categories raise a helpful error instead of crashing silently
+try:
+    pynyc.find_excursion("underwater")
+except ValueError as error:
+    print(error)
+```
+
+Input is **case-insensitive** - `"NATURE"`, `"Nature"`, and `"nature"` all work the same.
+
+See the full working example in [example.py](./example.py).
+
+---
+
+## `list_excursions(category)`
+
+Returns a list of excursion places in New York City for a given category.
+
+| Parameter | Type | Required | Description |
+|---|---|---|---|
+| `category` | `str` | Yes | The excursion category you want (e.g. `"nature"`, `"historic"`, `"coastal"`) |
+
+### Example usage
+
+```python
+import pynyc
+
+# Get all excursion places for a nature category
+places = pynyc.list_excursions("nature")
+for place in places:
+    print(f"{place['name']}: {place['website']}")
+
+# Aliases also work
+places = pynyc.list_excursions("outdoors")
+print(places[0])
+
+# Invalid categories raise a helpful error instead of crashing silently
+try:
+    pynyc.list_excursions("underwater")
+except ValueError as error:
+    print(error)
+```
+
+Input is **case-insensitive** - `"NATURE"`, `"Nature"`, and `"nature"` all work the same.
+
+See the full working example in [example.py](./example.py).
+
+---
 
 ## Setting Up for Development
 
