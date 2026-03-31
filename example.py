@@ -12,6 +12,17 @@ restaurant = demo.find_restaurant(cuisine,micheline)
 
 print(f"Go to {restaurant}")
 
+#Activity
+while True:
+    weather = input("Let's find something to do. What's the weather like outside? "
+    "(rainy, sunny, freezing, cold, hot, or perfect) ")
+    activity = demo.find_activity(weather)
+    if "not valid" in activity:
+        print(activity)
+    else:
+        break
+
+print(activity)
 
 # Cafe
 time = input("What time of day is it? (EXP: morning, afternoon, evening) ")
@@ -21,7 +32,7 @@ print(f"You should check out {cafe}")
 
 while True:
     nightlife_vibe = input(
-        "Nice, dinner is handled. What kind of nightlife vibe are you in the mood for after? "
+        "Nice, a cafe, acitivy, and dinner is handled. What kind of nightlife vibe are you in the mood for after? "
         "(pick from dancing, drinks and vibes, singing, or laughing) "
     )
 
