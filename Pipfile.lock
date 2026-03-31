@@ -16,14 +16,6 @@
         ]
     },
     "default": {
-        "backports.tarfile": {
-            "hashes": [
-                "sha256:77e284d754527b01fb1e6fa8a1afe577858ebe4e9dad8919e34c862cb399bc34",
-                "sha256:d75e02c268746e1b8144c278978b6e98e85de6ad16f8e4b0844a154557eca991"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==1.2.0"
-        },
         "build": {
             "hashes": [
                 "sha256:35b14e1ee329c186d3f08466003521ed7685ec15ecffc07e68d706090bf161d1",
@@ -316,14 +308,6 @@
             "markers": "python_version >= '3.8'",
             "version": "==3.11"
         },
-        "importlib-metadata": {
-            "hashes": [
-                "sha256:2d21d1cc5a017bd0559e36150c21c830ab1dc304dedd1b7ea85d20f45ef3edd7",
-                "sha256:a4f57ab599e6a2e3016d7595cfd72eb4661a5106e787a95bcc90c7105b831efc"
-            ],
-            "markers": "python_version >= '3.10'",
-            "version": "==9.0.0"
-        },
         "iniconfig": {
             "hashes": [
                 "sha256:c76315c77db068650d49c5b56314774a7804df16fee4402c1f19d6d15d8c4730",
@@ -531,14 +515,6 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==2.6.3"
-        },
-        "zipp": {
-            "hashes": [
-                "sha256:071652d6115ed432f5ce1d34c336c0adfd6a884660d1e9712a256d3d3bd4b14e",
-                "sha256:a07157588a12518c9d4034df3fbbee09c814741a33ff63c05fa29d26a2404166"
-            ],
-            "markers": "python_version >= '3.9'",
-            "version": "==3.23.0"
         }
     },
     "develop": {
